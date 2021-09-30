@@ -1,0 +1,1 @@
+document.write("<b>Second scripting</b><br>");
