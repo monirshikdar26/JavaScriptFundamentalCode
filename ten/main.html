@@ -10,14 +10,22 @@
 
 <body>
     <script>
-        var result = 85;
+        var result = 25;
 
         if (result <= 100 && result >= 80)
             document.write('A+');
         else if (result < 80 && result >= 70)
             document.write('A');
         else if (result < 70 && result >= 60)
-            document.write('A-');
+            document.write('B+');
+        else if (result < 60 && result >= 50)
+            document.write('B');
+        else if (result < 50 && result >= 40)
+            document.write('C');
+        else if (result < 40 && result >= 33)
+            document.write('D');
+        else
+            document.write('F');
     </script>
 </body>
 
